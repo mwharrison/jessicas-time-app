@@ -12,6 +12,9 @@
 		4C3812651BEF12950007E021 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C3812631BEF12950007E021 /* Main.storyboard */; };
 		4C3812671BEF12950007E021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C3812661BEF12950007E021 /* Assets.xcassets */; };
 		4C38126A1BEF12950007E021 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C3812681BEF12950007E021 /* LaunchScreen.storyboard */; };
+		4C3812721BEF15530007E021 /* crazy-lady.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C3812711BEF15530007E021 /* crazy-lady.jpg */; };
+		4C3812801BEF18FD0007E021 /* crazy_old_lady.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C38127F1BEF18FD0007E021 /* crazy_old_lady.png */; };
+		4C3812821BEF19E20007E021 /* jessica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C3812811BEF19E20007E021 /* jessica.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		4C3812661BEF12950007E021 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C3812691BEF12950007E021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C38126B1BEF12950007E021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3812711BEF15530007E021 /* crazy-lady.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "crazy-lady.jpg"; sourceTree = "<group>"; };
+		4C38127F1BEF18FD0007E021 /* crazy_old_lady.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crazy_old_lady.png; sourceTree = "<group>"; };
+		4C3812811BEF19E20007E021 /* jessica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jessica.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				4C3812631BEF12950007E021 /* Main.storyboard */,
 				4C3812661BEF12950007E021 /* Assets.xcassets */,
 				4C3812681BEF12950007E021 /* LaunchScreen.storyboard */,
+				4C3812711BEF15530007E021 /* crazy-lady.jpg */,
+				4C38127F1BEF18FD0007E021 /* crazy_old_lady.png */,
+				4C3812811BEF19E20007E021 /* jessica.jpg */,
 				4C38126B1BEF12950007E021 /* Info.plist */,
 			);
 			path = "Tell Me The Time";
@@ -96,6 +105,7 @@
 				TargetAttributes = {
 					4C38125B1BEF12950007E021 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = ZJZ4ZKDB8V;
 					};
 				};
 			};
@@ -122,7 +132,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C3812821BEF19E20007E021 /* jessica.jpg in Resources */,
 				4C38126A1BEF12950007E021 /* LaunchScreen.storyboard in Resources */,
+				4C3812801BEF18FD0007E021 /* crazy_old_lady.png in Resources */,
+				4C3812721BEF15530007E021 /* crazy-lady.jpg in Resources */,
 				4C3812671BEF12950007E021 /* Assets.xcassets in Resources */,
 				4C3812651BEF12950007E021 /* Main.storyboard in Resources */,
 			);
@@ -249,10 +262,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Tell Me The Time/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mycodev.Tell-Me-The-Time";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -260,10 +276,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Tell Me The Time/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mycodev.Tell-Me-The-Time";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
